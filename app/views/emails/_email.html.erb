@@ -1,0 +1,4 @@
+<div id="<%= email.id %>">
+  <p >Objet : <%= link_to(email.object,email_path(email),remote: true) %></p>
+  <p >email : <%= email.body %></p>
+</div>
