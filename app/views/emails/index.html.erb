@@ -7,7 +7,7 @@
     <div class='show-email'></div>
     <div class='email-list'>
       <% @emails.sort.reverse_each do |email| %>
-        <p id="delete_email"> <%= render 'email', email: email, remote: true %> </p>
+        <%= render 'email', email: email, remote: true %>
       <% end %>
     </div>
 </div>
