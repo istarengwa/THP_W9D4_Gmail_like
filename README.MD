@@ -31,5 +31,3 @@ Maintenant root ton projet sur email#index, et génère le controller et la view
 * Email lu ou non lu par bouton et clic
 * Affichage de la lecture par modification css
 * Le tout en AJAX
-
-Lien : https://lit-escarpment-34079.herokuapp.com/
